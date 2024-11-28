@@ -9,3 +9,5 @@ def largest_square_num(n):
 largest_square_num(41)
 largest_square_num(56)
 largest_square_num(92)
+
+# It looks like I learned how to use git today
