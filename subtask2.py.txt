@@ -1,0 +1,28 @@
+def read_x():
+    return int(input("Enter a number (-1 to end): "))
+def sequence():
+        n = 0
+        s = 0
+        m = float('inf')
+        a = 0
+        
+        x = read_x()
+        while x != -1:
+            n += 1
+            s += x
+            if x < m:
+                m = x
+            x = read_x()
+        if n == 0:
+            m = -1
+            a = -1
+        else:
+            a = s / n 
+        
+        print ("Count",n)
+        print ("Minimum",m)
+        print ("Sum",s)
+        print ("Mean",a)
+    
+sequence()
+
